@@ -1,0 +1,19 @@
+package compiler;
+
+public enum TokenType
+{
+	/* Book Keeping*/
+	ENDFILE,ERROR,
+	
+	/*Reserved Words*/
+	INT,FLOAT,CHAR,BOOL,IF,ELSE,WHILE,PRINT,READ,
+	
+	/*Operators*/
+	PLUS,MINUS,MULTIPLY,DIVIDE,MOD,ASSIGN,EQUAL,LEQUAL,GEQUAL,LTHAN,GTHAN,NEQUAL,
+	
+	/*Punctuation*/
+	LPAREN,RPAREN,LBRACE,RBRACE,SEMICOLON,
+	
+	/*Others*/
+	IDEN,STRING,INT_LTRL,CHAR_LTRL,FLOAT_LTRL,BOOL_LTRL
+}
